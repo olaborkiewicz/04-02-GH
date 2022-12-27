@@ -1,0 +1,28 @@
+#flex-container {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-item1,
+.flex-item2,
+.flex-item3 {
+  display: inline;
+  width: 33.33%;
+  height: 100vh;
+  font-size: 25px;
+}
+
+.flex-item1 {
+  background-color: blue;
+}
+
+.flex-item2 {
+  background-color: blueviolet;
+}
+
+.flex-item3 {
+  background-color: crimson;
+}
